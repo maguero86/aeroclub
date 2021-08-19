@@ -1,0 +1,251 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+header{
+	background-color: white;
+	padding: 1em 0;
+}
+
+header h1{
+	color: white;
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight:100;
+	display: inline-block;
+	position: relative;
+	bottom: 30px;
+}
+
+h2{
+	color: #2e64a1;
+	font-weight: 400;
+	margin: 0 0 1em;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.holder{
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: #6da9ed;
+	margin-bottom: 2em;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 16.3%;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo{
+	background-color: #4c76a5;
+}
+
+footer{
+	background-color: #ccc;
+	clear: both;
+	color: #333;
+	padding: 3em 0;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.homeimg{
+	margin-bottom: 1.5em;
+}
+
+.columnas{
+	overflow: hidden;
+}
+
+.bienvenidos .testimonios{
+	box-sizing: border-box;
+}
+
+.bievenidos{
+	width: 75%;
+	padding-right: 2em;
+}
+
+.testimonios{
+	width: 25%;
+}
+
+.testimonio{
+	background-color: #ccc;
+	padding: 1em;
+}
+
+.testimonio .cita{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.4em;
+	display: block;
+} 
+
+.testimonio .autor{
+	font-size: 0.7em;
+	text-align: center;
+	margin: 1em 0;
+	display: block;
+}
+
+.historia p{
+	font-size: 0.8em;
+}
+
+.aviones{
+	overflow: hidden;
+}
+
+.avion{
+	width: 18%;
+	height: 180px;
+	border: 1px solid gray;
+	border-radius: 0.25em;
+	float: left;
+	margin-left: 2.25%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.avion img{
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	margin: 0.8em 0 1em;
+	max-width: 70%;
+}
+
+.avion h5{
+	text-align: center;
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #2e64a1;
+	margin: 0;	
+}
+
+.avion h6{
+	text-align: center;
+	font-weight: normal;
+	font-size: 0.8em;
+	font-style: italic;
+	color: #2e64a1;
+	margin: 0;	
+}
+
+.avion p{
+	font-size: 0.7em;
+	color: #444;
+	margin: 0 1em 1em;
+}
+
+.avion: first-child{
+	margin-left: 0;
+}
+
+.cursos{
+	border: 1px solid gray;
+	border-radius: 0.7em;
+	margin: 1em 0;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.cursos .info{
+	width: 75%;
+}
+
+.cursos .info h4{
+	color: #2e64a1;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 500;
+	margin: 0 0 1em;
+	border-bottom: 1px solid #2e64a1;
+	padding-bottom: 0.5em;
+}
+
+.cursos .info p{
+	font-size: 0.8em;
+	line-height: 1.2em;
+	float: left;
+}
+
+.bautismos{
+	border: 1px solid gray;
+	border-radius: 0.7em;
+	margin: 1em 0;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.bautismos .info{
+	width: 75%;
+}
+
+.bautismos .info h4{
+	color: #2e64a1;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 500;
+	margin: 0 0 1em;
+	border-bottom: 1px solid #2e64a1;
+	padding-bottom: 0.5em;
+}
+
+.bautismos .info p{
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+.bautismos img{
+	border-radius: 0.8em;
+}
+
+.bautismos:nth-child(even) img{
+	float: right;
+	margin: 0 0 0 1em;
+}
+
+.bautismos:nth-child(even) .info{
+	float: left;	
+}
+
+.bautismos:nth-child(odd) img{
+	float: l;eft
+	margin: 0 1em 0 0;
+}
+
+.bautismos:nth-child(odd) .info{
+	float: right;	
+}
+	
